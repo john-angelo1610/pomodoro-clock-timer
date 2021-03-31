@@ -1,0 +1,52 @@
+body {
+    color: #eceff1;
+    background-color: #795548;
+}
+
+button i{
+    color: #212121;
+}
+
+.btn:hover, .btn-large:hover {
+    background: #e64a19 !important;
+}
+
+.btn:active, .btn-large:active {
+    background: #ff9e80 !important;
+}
+
+#clock {
+    border: 5px solid #fbc02d;
+    border-radius: 50px;
+    margin: 0 20% 20px;
+}
+
+#time-left {
+    margin-top: 0;
+}
+
+#start_stop {
+    margin-right: 20px;
+}
+
+.time-sets {
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer a{
+    color: #fbc02d;
+}
+
+footer a:hover {
+    color: #e64a19;
+}
